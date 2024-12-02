@@ -48,6 +48,13 @@
                 SemanticProperties.Hint="Convierte tus unidades"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+
+            <Button
+                x:Name="ML_Borrar"
+                Text="Borrar" 
+                SemanticProperties.Hint="Convierte tus unidades"
+                Clicked="OnBorrarClicked"
+                HorizontalOptions="Fill" />
         </VerticalStackLayout>
         
     </ScrollView>
