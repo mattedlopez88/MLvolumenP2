@@ -23,24 +23,29 @@
                 Style="{StaticResource SubHeadline}"
                 SemanticProperties.HeadingLevel="Level2"
                 SemanticProperties.Description="Convierte unidades de volumen" />
-        
-            <Entry
-            x:Name="ML_litros"
-            Placeholder="Ingresa el valor en litros"
-            Keyboard="Numeric"
-            SemanticProperties.Description="Ingresa el valor en litros" />
 
+            <Label
+                Text="Litros:"/>
             <Entry
-            x:Name="ML_gal"
-            Placeholder="Ingresa el valor en Galones"
-            Keyboard="Numeric"
-            SemanticProperties.Description="Ingresa el valor en Galones" />
-
+            
+                x:Name="ML_litros"
+                Placeholder="Ingresa el valor en litros"
+                Keyboard="Numeric"
+                SemanticProperties.Description="Ingresa el valor en litros" />
+            <Label
+    Text="Galones:"/>
             <Entry
-            x:Name="ML_m3"
-            Placeholder="Ingresa el valor en metros cubicos"
-            Keyboard="Numeric"
-            SemanticProperties.Description="Ingresa el valor en metros cubicos" />
+                x:Name="ML_gal"
+                Placeholder="Ingresa el valor en Galones"
+                Keyboard="Numeric"
+                SemanticProperties.Description="Ingresa el valor en Galones" />
+            <Label
+    Text="Metros cubicos:"/>
+            <Entry
+                x:Name="ML_m3"
+                Placeholder="Ingresa el valor en metros cubicos"
+                Keyboard="Numeric"
+                SemanticProperties.Description="Ingresa el valor en metros cubicos" />
 
             <Button
                 x:Name="ML_Convert"

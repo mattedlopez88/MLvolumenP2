@@ -26,6 +26,12 @@
                 ML_litros.Text = (ML_floatM3 * 1000).ToString();
                 ML_gal.Text = (ML_floatM3 * 219.969).ToString();
             }
+            else
+            {
+                ML_gal.Text = "LLena un campo";
+                ML_litros.Text = "LLena un campo";
+                ML_m3.Text = "LLena un campo";
+            }
             
             SemanticScreenReader.Announce(ML_Convert.Text);
         }
